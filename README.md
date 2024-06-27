@@ -2,7 +2,7 @@
 
 A simple and Beautiful Porfolio made with Nextjs and Shadcn Ui.
 
-<!-- ![Demo](https://test) -->
+![Demo](https://github.com/ehte92/portfolio/blob/04fc560204264713f7e768eef907e36b5eb1c8e7/public/og-image.jpeg)
 
 ## Getting Started
 
