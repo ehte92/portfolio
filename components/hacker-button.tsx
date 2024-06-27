@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "./ui/button";
 import { Download } from "lucide-react";
+import Link from "next/link";
 
 const HackerButton = ({ label }: { label: string }) => {
   const [displayText, setDisplayText] = useState(label);
@@ -37,10 +38,12 @@ const HackerButton = ({ label }: { label: string }) => {
       size={"lg"}
       className="text-base px-5 py-6"
       onMouseEnter={startScrambling}
+      asChild
     >
-      {" "}
-      <Download className="mx-1" />
-      {displayText}
+      <Link href="/Resume.pdf" download>
+        <Download className="mx-1" />
+        {displayText}
+      </Link>
     </Button>
   );
 };
