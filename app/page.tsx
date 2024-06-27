@@ -4,13 +4,6 @@ import HeroImage from "@/components/hero-image";
 import HeroTexts from "@/components/hero-texts";
 import SocialLinks from "@/components/social-links";
 
-export const siteConfig = {
-  name: "Ehtesham Ansari",
-  description: "I am a frontend developer",
-  ogImage: "https://ehte92.vercel.app/og-image.png",
-  url: "https://ehte92.vercel.app",
-};
-
 export default function Home() {
   return (
     <>
