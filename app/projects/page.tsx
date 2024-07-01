@@ -7,11 +7,11 @@ const projectsPage = () => {
   // PROJECTS DATA
   const Projects = [
     {
-      title: "HookIn - Reusable Hooks for React",
+      title: "Quick Hooks - Reusable Hooks for React",
       description:
         "Currently under development. It is an open source project that provides a set of reusable hooks for React.",
       tags: ["React", "Typescript", "Shadcn Ui"],
-      link: "https://github.com/taqui-786/project-friendz",
+      link: "https://github.com/ehte92/quick-hooks",
     },
     {
       title: "Contraction Timer",
